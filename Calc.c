@@ -110,7 +110,7 @@ void RotateXY(char ArrayChar[],int ArrayCharSize)
 // START Method
 
 // Original Method
-#if 1
+#if 0
 		X=((0)*X)+((-1)*Y);
 		Y=((-1)*(-1)*X)+((0)*Y);
 #endif
@@ -124,7 +124,7 @@ void RotateXY(char ArrayChar[],int ArrayCharSize)
 #endif
 
 // Improve Method II
-#if 0
+#if 1
 		// SWAP X And Y Coordinate
 		SWAP(X,Y,Temp);
 		// Let X * (-1)
